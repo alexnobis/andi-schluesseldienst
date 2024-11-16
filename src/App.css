@@ -1,10 +1,5 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html,body {
+  width:100%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -21,7 +16,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgba(74, 73, 73, 0.804);
 }
 
 .App-link {
