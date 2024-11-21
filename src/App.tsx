@@ -15,7 +15,7 @@ const orte = ['Sonthofen', 'Kempten', 'Immenstadt', 'Oberstdorf', 'Blaichach', '
 
 // Create an array of section objects
 const sections: Section[] = Array.from({ length: 15 }, (_, index) => ({
-  title: `Schlüsseldienst ${orte [index]}`,
+  title: `Schlüsseldienst ${orte[index]}`,
   description: `Türöffnungen aller Art - Haus & Wohnungstüren • Tresore • Fahrzeuge • Elektronikschlösser.`,
   imageDesktop: require(`./images/optimized/desktop/image${index + 1}-desktop.webp`), // Dynamically require the images
   imageTablet: require(`./images/optimized/tablet/image${index + 1}-tablet.webp`), // Dynamically require the images
