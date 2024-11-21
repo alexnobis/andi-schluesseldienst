@@ -1,35 +1,43 @@
-import React from 'react';
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
 
 // Define an interface for the section type
 interface Section {
   title: string;
   description: string;
-  image: string;
+  imageDesktop: string;
+  imageTablet: string;
+  imageMobile: string;
 }
 
-const orte = ['Immenstadt', 'Oberstdorf', 'Sonthofen', 'Ort4', 'Ort6', 'Ort7', 'Ort8', 'Ort9', 'Ort10', 'Ort11', 'Ort12', 'Ort13', 'Ort14', 'Ort15', 'Ort16','Ort17', 'Ort18', 'Ort19', 'Ort20'];
+const orte = ['Sonthofen', 'Kempten', 'Immenstadt', 'Oberstdorf', 'Blaichach', 'Burgberg', 'Wertach', 'Nesselwang', 'Hindelang', 'Isny', 'Wangen', 'Lindenberg', 'Leutkirch', 'Ulm', 'Senden'];
 
 
 // Create an array of section objects
-const sections: Section[] = Array.from({ length: 19 }, (_, index) => ({
+const sections: Section[] = Array.from({ length: 15 }, (_, index) => ({
   title: `Schlüsseldienst ${orte [index]}`,
   description: `Türöffnungen aller Art - Haus & Wohnungstüren • Tresore • Fahrzeuge • Elektronikschlösser.`,
-  image: require(`./images/image${index + 1}.jpg`), // Dynamically require the images
+  imageDesktop: require(`./images/optimized/desktop/image${index + 1}-desktop.webp`), // Dynamically require the images
+  imageTablet: require(`./images/optimized/tablet/image${index + 1}-tablet.webp`), // Dynamically require the images
+  imageMobile: require(`./images/optimized/mobile/image${index + 1}-mobile.webp`), // Dynamically require the images
 }));
 
+
 function App() {
-  
+  console.log('start')
+  console.log(sections[1].imageDesktop)
+
   return (
     <div>
       {sections.map((section, index) => (
         <section key={index}>
           <div style={{position: 'relative',  color: 'white'}}>
             <img
-              src={section.image}
-              alt={section.title}
-              style={{ width: '100%', height: '100vh'}}
+              loading="lazy"
+              src={section.imageDesktop}
+              srcSet={`${section.imageDesktop} 1920w, ${section.imageTablet} 1024w, ${section.imageMobile} 768w`} // Dynamic srcSet
+                alt={section.title}
+                style={{ width: '100vw', height: '100vh', objectFit: 'cover' }}
             />
             <div style={{position: 'absolute', top:'0', left: '0',  width: '100%', height: '100vh', display:'flex', flexDirection: 'column', justifyContent: 'center', alignItems:'center', backgroundColor:'rgba(74, 73, 73, 0.804)'}}>
               <div style={{textAlign:'center', width:'100%', padding:'20px', fontSize:'1.25rem'}}>
