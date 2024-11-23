@@ -32,24 +32,25 @@ function App() {
       scrollSnapType: 'y mandatory',
       height: '100vh',
       overflowY: 'scroll',
-      overflowX: 'hidden' }}>
+      overflowX: 'hidden',
+      scrollBehavior: 'smooth', }}>
       {sections.map((section, index) => (
-        <section key={index}>
+        <section key={index} style={{scrollSnapAlign: 'start'}}>
           <div style={{
             position: 'relative',  
             color: 'white',
-            scrollSnapAlign: 'start'}}>
+            }}>
             <img
               loading="lazy"
               src={section.imageDesktop}
               srcSet={`${section.imageDesktop} 1920w, ${section.imageTablet} 1024w, ${section.imageMobile} 768w`} // Dynamic srcSet
                 alt={section.title}
-                style={{ width: '100vw', height: '100vh', objectFit: 'cover', display: 'block' }}
+                style={{ width: '100vw', height: '100vh', objectFit: 'fill', display: 'block' }}
             />
-            <div style={{position: 'absolute', top:'0', left: '0',  width: '100vw', height: '100vh', display:'flex', flexDirection: 'column', justifyContent: 'center', alignItems:'center', backgroundColor:'rgba(74, 73, 73, 0.804)'}}>
-              <div style={{textAlign:'center', width:'100%', padding:'20px', fontSize:'1.25rem'}}>
+            <div style={{position: 'absolute', top:'0', left: '0',  width: '100vw', height: '100vh', display:'flex', flexDirection: 'column', justifyContent: 'center', alignItems:'center', backgroundColor:'rgba(0, 0, 0, 0.5)'}}>
+              <div style={{textAlign:'center', maxWidth:'90%', marginBottom:'50px', fontSize:'1.35rem', backdropFilter:'blur(5px)', borderRadius:'8px'}}>
                 <h2>{section.title}</h2>
-                <p>{section.description}</p>
+                <p style={{lineHeight:'1.3', fontWeight:'500'}}>{section.description}</p>
               </div>
             </div>
           </div>
