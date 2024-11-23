@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9a02eb2c3c5a28a46a5dc219480202d0",
+    "revision": "5948445dbcb6ad6e26f8d0f9e51871bc",
     "url": "/andi-schluesseldienst/index.html"
   },
   {
-    "revision": "7761755113f1c04b6d96",
+    "revision": "780f1b60cc51869de1bd",
     "url": "/andi-schluesseldienst/static/css/main.b5bd7f7b.chunk.css"
   },
   {
@@ -12,16 +12,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/andi-schluesseldienst/static/js/2.ca150098.chunk.js"
   },
   {
-    "revision": "8a0160ee0bb0224edb38",
-    "url": "/andi-schluesseldienst/static/js/3.f65d22c9.chunk.js"
+    "revision": "21d8eb0bed2f26e73cb4",
+    "url": "/andi-schluesseldienst/static/js/3.b1b92a21.chunk.js"
   },
   {
-    "revision": "7761755113f1c04b6d96",
-    "url": "/andi-schluesseldienst/static/js/main.1ec7f2e6.chunk.js"
+    "revision": "780f1b60cc51869de1bd",
+    "url": "/andi-schluesseldienst/static/js/main.b74d2bd2.chunk.js"
   },
   {
-    "revision": "bd144b9dc41290f97ec1",
-    "url": "/andi-schluesseldienst/static/js/runtime~main.96145a24.js"
+    "revision": "f4aec7017360aac2825c",
+    "url": "/andi-schluesseldienst/static/js/runtime~main.dc5e5d0e.js"
   },
   {
     "revision": "96afd991954b48eb48e779760f041396",
@@ -48,16 +48,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/andi-schluesseldienst/static/media/image10-tablet.d937ad8b.webp"
   },
   {
-    "revision": "96afd991954b48eb48e779760f041396",
-    "url": "/andi-schluesseldienst/static/media/image11-desktop.96afd991.webp"
+    "revision": "2eaf59e6200a9394a8bd097f438f4eeb",
+    "url": "/andi-schluesseldienst/static/media/image11-desktop.2eaf59e6.webp"
   },
   {
-    "revision": "8e3b958c2ea32fb2cd1c64e95f57a671",
-    "url": "/andi-schluesseldienst/static/media/image11-mobile.8e3b958c.webp"
+    "revision": "a7360cd85221f823023960a875014a98",
+    "url": "/andi-schluesseldienst/static/media/image11-mobile.a7360cd8.webp"
   },
   {
-    "revision": "b26411a4320ed4e18639f8143cf11eff",
-    "url": "/andi-schluesseldienst/static/media/image11-tablet.b26411a4.webp"
+    "revision": "8ad391ce6f47aabf581baa29bde6ef4a",
+    "url": "/andi-schluesseldienst/static/media/image11-tablet.8ad391ce.webp"
   },
   {
     "revision": "513f0d3e185310c9fea7868b30d7bf4b",
@@ -190,18 +190,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7c0b471ea2e2a93367aa51bf4eaa9b6a",
     "url": "/andi-schluesseldienst/static/media/image21-tablet.7c0b471e.webp"
-  },
-  {
-    "revision": "2eaf59e6200a9394a8bd097f438f4eeb",
-    "url": "/andi-schluesseldienst/static/media/image22-desktop.2eaf59e6.webp"
-  },
-  {
-    "revision": "a7360cd85221f823023960a875014a98",
-    "url": "/andi-schluesseldienst/static/media/image22-mobile.a7360cd8.webp"
-  },
-  {
-    "revision": "8ad391ce6f47aabf581baa29bde6ef4a",
-    "url": "/andi-schluesseldienst/static/media/image22-tablet.8ad391ce.webp"
   },
   {
     "revision": "5ad8391989da3fec220bda42ea4d5329",
