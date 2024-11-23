@@ -48,9 +48,9 @@ function App() {
                 style={{ width: '100vw', height: '100vh', objectFit: 'fill', display: 'block' }}
             />
             <div style={{position: 'absolute', top:'0', left: '0',  width: '100vw', height: '100vh', display:'flex', flexDirection: 'column', justifyContent: 'center', alignItems:'center', backgroundColor:'rgba(0, 0, 0, 0.5)'}}>
-              <div style={{textAlign:'center', maxWidth:'90%', marginBottom:'50px', fontSize:'1.35rem', backdropFilter:'blur(5px)', borderRadius:'8px'}}>
-                <h2>{section.title}</h2>
-                <p style={{lineHeight:'1.3', fontWeight:'500'}}>{section.description}</p>
+              <div style={{textAlign:'center', maxWidth:'90%', marginBottom:'50px', fontSize:'1.35rem', }}>
+                <h2 style={{display:'inline-block', backdropFilter:'blur(5px)',}}>{section.title}</h2>
+                <p style={{lineHeight:'1.3', fontWeight:'500', backdropFilter:'blur(5px)', }}>{section.description}</p>
               </div>
             </div>
           </div>
