@@ -24,8 +24,8 @@ const sections: Section[] = Array.from({ length: 15 }, (_, index) => ({
 
 
 function App() {
-  console.log('start')
-  console.log(sections[1].imageDesktop)
+  const windowWidth = window.innerWidth;
+  console.log(windowWidth)
 
   return (
     <div style={{ 
@@ -42,15 +42,19 @@ function App() {
             }}>
             <img
               loading="lazy"
-              src={section.imageDesktop}
+              src={ windowWidth <= 768
+                ? section.imageMobile
+                : windowWidth <= 1024
+                ? section.imageTablet
+                : section.imageDesktop}
               srcSet={`${section.imageDesktop} 1920w, ${section.imageTablet} 1024w, ${section.imageMobile} 768w`} // Dynamic srcSet
                 alt={section.title}
-                style={{ width: '100vw', height: '100vh', objectFit: 'fill', display: 'block' }}
+                style={{ width: '100vw', height: '100vh', objectFit: 'cover', display: 'block' }}
             />
             <div style={{position: 'absolute', top:'0', left: '0',  width: '100vw', height: '100vh', display:'flex', flexDirection: 'column', justifyContent: 'center', alignItems:'center', backgroundColor:'rgba(0, 0, 0, 0.5)'}}>
               <div style={{textAlign:'center', maxWidth:'90%', marginBottom:'50px', fontSize:'1.35rem', }}>
-                <h2 style={{display:'inline-block', backdropFilter:'blur(5px)',}}>{section.title}</h2>
-                <p style={{lineHeight:'1.3', fontWeight:'500', backdropFilter:'blur(5px)', }}>{section.description}</p>
+                <h2 style={{display:'inline-block', backdropFilter:'blur(3px)',}}>{section.title}</h2>
+                <p style={{lineHeight:'1.3', fontWeight:'500', backdropFilter:'blur(3px)', }}>{section.description}</p>
               </div>
             </div>
           </div>
