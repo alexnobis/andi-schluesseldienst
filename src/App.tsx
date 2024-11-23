@@ -31,7 +31,8 @@ function App() {
     <div style={{ 
       scrollSnapType: 'y mandatory',
       height: '100vh',
-      overflowY: 'scroll' }}>
+      overflowY: 'scroll',
+      overflowX: 'hidden' }}>
       {sections.map((section, index) => (
         <section key={index}>
           <div style={{
@@ -43,7 +44,7 @@ function App() {
               src={section.imageDesktop}
               srcSet={`${section.imageDesktop} 1920w, ${section.imageTablet} 1024w, ${section.imageMobile} 768w`} // Dynamic srcSet
                 alt={section.title}
-                style={{ width: '100vw', height: '100vh', objectFit: 'cover' }}
+                style={{ width: '100vw', height: '100vh', objectFit: 'cover', display: 'block' }}
             />
             <div style={{position: 'absolute', top:'0', left: '0',  width: '100vw', height: '100vh', display:'flex', flexDirection: 'column', justifyContent: 'center', alignItems:'center', backgroundColor:'rgba(74, 73, 73, 0.804)'}}>
               <div style={{textAlign:'center', width:'100%', padding:'20px', fontSize:'1.25rem'}}>
