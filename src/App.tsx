@@ -28,10 +28,16 @@ function App() {
   console.log(sections[1].imageDesktop)
 
   return (
-    <div>
+    <div style={{ 
+      scrollSnapType: 'y mandatory',
+      height: '100vh',
+      overflowY: 'scroll' }}>
       {sections.map((section, index) => (
         <section key={index}>
-          <div style={{position: 'relative',  color: 'white'}}>
+          <div style={{
+            position: 'relative',  
+            color: 'white',
+            scrollSnapAlign: 'start'}}>
             <img
               loading="lazy"
               src={section.imageDesktop}
@@ -39,7 +45,7 @@ function App() {
                 alt={section.title}
                 style={{ width: '100vw', height: '100vh', objectFit: 'cover' }}
             />
-            <div style={{position: 'absolute', top:'0', left: '0',  width: '100%', height: '100vh', display:'flex', flexDirection: 'column', justifyContent: 'center', alignItems:'center', backgroundColor:'rgba(74, 73, 73, 0.804)'}}>
+            <div style={{position: 'absolute', top:'0', left: '0',  width: '100vw', height: '100vh', display:'flex', flexDirection: 'column', justifyContent: 'center', alignItems:'center', backgroundColor:'rgba(74, 73, 73, 0.804)'}}>
               <div style={{textAlign:'center', width:'100%', padding:'20px', fontSize:'1.25rem'}}>
                 <h2>{section.title}</h2>
                 <p>{section.description}</p>
