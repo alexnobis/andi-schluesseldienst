@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "65b09cd08a2bbe93a83efc9c144e12af",
+    "revision": "2689dbd211d243cf94282accc938bf1d",
     "url": "/andi-schluesseldienst/index.html"
   },
   {
-    "revision": "7521251fff4246f4d4bd",
-    "url": "/andi-schluesseldienst/static/css/main.f4129727.chunk.css"
+    "revision": "f182a47fa3f75b273f89",
+    "url": "/andi-schluesseldienst/static/css/main.59306a54.chunk.css"
   },
   {
     "revision": "1582e325d1bcf091e744",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/andi-schluesseldienst/static/js/3.f65d22c9.chunk.js"
   },
   {
-    "revision": "7521251fff4246f4d4bd",
-    "url": "/andi-schluesseldienst/static/js/main.ee28f4f1.chunk.js"
+    "revision": "f182a47fa3f75b273f89",
+    "url": "/andi-schluesseldienst/static/js/main.ef464ee4.chunk.js"
   },
   {
     "revision": "bd144b9dc41290f97ec1",

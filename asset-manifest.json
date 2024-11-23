@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/andi-schluesseldienst/static/css/main.f4129727.chunk.css",
-    "main.js": "/andi-schluesseldienst/static/js/main.ee28f4f1.chunk.js",
-    "main.js.map": "/andi-schluesseldienst/static/js/main.ee28f4f1.chunk.js.map",
+    "main.css": "/andi-schluesseldienst/static/css/main.59306a54.chunk.css",
+    "main.js": "/andi-schluesseldienst/static/js/main.ef464ee4.chunk.js",
+    "main.js.map": "/andi-schluesseldienst/static/js/main.ef464ee4.chunk.js.map",
     "runtime~main.js": "/andi-schluesseldienst/static/js/runtime~main.96145a24.js",
     "runtime~main.js.map": "/andi-schluesseldienst/static/js/runtime~main.96145a24.js.map",
     "static/js/2.ca150098.chunk.js": "/andi-schluesseldienst/static/js/2.ca150098.chunk.js",
@@ -10,9 +10,9 @@
     "static/js/3.f65d22c9.chunk.js": "/andi-schluesseldienst/static/js/3.f65d22c9.chunk.js",
     "static/js/3.f65d22c9.chunk.js.map": "/andi-schluesseldienst/static/js/3.f65d22c9.chunk.js.map",
     "index.html": "/andi-schluesseldienst/index.html",
-    "precache-manifest.e58622d266e1a87fb04e00e69cd5cae3.js": "/andi-schluesseldienst/precache-manifest.e58622d266e1a87fb04e00e69cd5cae3.js",
+    "precache-manifest.f0fc29d9f2858536d1101c66a05373c9.js": "/andi-schluesseldienst/precache-manifest.f0fc29d9f2858536d1101c66a05373c9.js",
     "service-worker.js": "/andi-schluesseldienst/service-worker.js",
-    "static/css/main.f4129727.chunk.css.map": "/andi-schluesseldienst/static/css/main.f4129727.chunk.css.map",
+    "static/css/main.59306a54.chunk.css.map": "/andi-schluesseldienst/static/css/main.59306a54.chunk.css.map",
     "static/media/image1-desktop.webp": "/andi-schluesseldienst/static/media/image1-desktop.96afd991.webp",
     "static/media/image1-mobile.webp": "/andi-schluesseldienst/static/media/image1-mobile.8e3b958c.webp",
     "static/media/image1-tablet.webp": "/andi-schluesseldienst/static/media/image1-tablet.b26411a4.webp",
