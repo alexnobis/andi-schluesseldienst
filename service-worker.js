@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/andi-schluesseldienst/precache-manifest.e8a99f82acfb994d3dad75236ae8dc64.js"
+  "/andi-schluesseldienst/precache-manifest.5f100a53d3f927f34619f96fa59db1a5.js"
 );
 
 self.addEventListener('message', (event) => {
